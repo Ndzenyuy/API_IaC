@@ -19,7 +19,7 @@ resource "aws_dynamodb_table" "my_table" {
   }
 }
 
-# IAM Role for Lambda
+# IAM Role for Lambda*
 resource "aws_iam_role" "lambda_role" {
   name = "lambda_role"
 
